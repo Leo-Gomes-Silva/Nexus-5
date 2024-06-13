@@ -1,0 +1,141 @@
+.containerQuestion {
+  background-image: url("../../assets/background-geral-priority.png");
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerForm {
+  margin-top: 3em;
+  width: 450px;
+}
+
+.question {
+  color: white;
+  font-size: 20px;
+}
+
+.option {
+  color: white;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.radioOption[type="radio"] {
+  display: none;
+}
+
+.labelOption {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+.btnSend {
+  display: grid;
+  place-content: center;
+  cursor: url('../../../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+  position: absolute;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #090000;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.btnSend {
+  background: #ff00ff;
+  box-shadow: 0 0 25px #ff00ff;
+}
+
+.btnSend:hover {
+  box-shadow: 0 0 5px #ff00ff, 0 0 25px #ff00ff, 0 0 50px #ff00ff,
+    0 0 100px #ff00ff;
+}
+
+/* button labelOption */
+.labelOption {
+  --green: #00ffff;
+  cursor: url('../../../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    #00ffff1a 1%,
+    transparent 40%,
+    transparent 60%,
+    #00ffff1a 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px #00ffff66, 0 0 9px 3px #00ffff1a;
+}
+
+.labelOption:hover {
+  color: #ff00ff;
+  border: 2px solid #ff00ff;
+  box-shadow: inset 0 0 10px #ff00ff99, 0 0 9px 3px #ff00ff33;
+  background: linear-gradient(
+    to right,
+    #ff00ff1a 1%,
+    transparent 40%,
+    transparent 60%,
+    #ff00ff1a 100%
+  );
+}
+
+.labelOption:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    #00ffff1a 40%,
+    #00ffff1a 60%,
+    transparent 100%
+  );
+}
+
+.labelOption:hover:before {
+  transform: translateX(35em);
+}
+
+.radioOption:checked + .labelOption {
+  color: #ff00ff;
+  border: 2px solid #ff00ff;
+  box-shadow: inset 0 0 10px #ff00ff99, 0 0 9px 3px #ff00ff33;
+  background: linear-gradient(
+    to right,
+    #ff00ff1a 1%,
+    transparent 40%,
+    transparent 60%,
+    #ff00ff1a 100%
+  );
+}

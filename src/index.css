@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.btnResult {
+  position: absolute;
+}
+.start-game {
+  cursor: url('../public/quiz-img-itens/cursor-N.png'), auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/background-geral.png");
+}
+.logo-image {
+  background-image: url("./assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 180px;
+  width: 800px;
+  height: 300px;
+}
+
+.start-btn {
+  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+  margin-top: 75vh;
+  position: absolute;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #090000;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.start-btn {
+  background: #00ffff;
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.start-btn:hover {
+  box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff,
+    0 0 100px #00ffff;
+}
+.text-result {
+  color: white;
+  font-size: 30px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #cecece;
+  z-index: 10;
+}
+
+.result-btn {
+  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+
+  /* position: absolute; */
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #090000;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.result-btn {
+  background: #00ffff;
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.result-btn:hover {
+  box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff,
+    0 0 100px #00ffff;
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotateX(45deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(45deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(360deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+    transform: rotateX(-60deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(-60deg) rotateY(0deg) rotateZ(360deg);
+  }
+}
+
+.loading {
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner-btn {
+  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'), auto;
+  margin: 80vh 0 0 815px;
+  position: absolute;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #090000;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.winner-btn {
+  background: #00ffff;
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.winner-btn:hover {
+  box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff, 0 0 50px #00ffff,
+    0 0 100px #00ffff;
+}
+
+.bg-geral {
+  cursor: url('../public/quiz-img-itens/cursor-N.png'),auto;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/background-geral.png");
+}
+
+.alathar .winner-name {
+  position: absolute;
+  margin: -25px 0 0 150px;
+  width: 600px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/alathar/alathar-name.png");
+}
+.alathar .winner-portrait {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/alathar/alathar.png");
+}
+.alathar .winner-card {
+  position: absolute;
+  margin: 150px 0 0 800px;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/alathar/card-alathar.png");
+}
+
+
+
+.lore .winner-name {
+  position: absolute;
+  margin: -25px 0 0 150px;
+  width: 600px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/lore/lore-name.png");
+}
+.lore .winner-portrait {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/lore/lore.png");
+}
+.lore .winner-card {
+  position: absolute;
+  margin: 150px 0 0 800px;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/lore/card-lore.png");
+}
+
+
+
+.maddie .winner-name {
+  position: absolute;
+  margin: -25px 0 0 150px;
+  width: 600px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/maddie/maddie-name.png");
+}
+.maddie .winner-portrait {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/maddie/maddie.png");
+}
+.maddie .winner-card {
+  position: absolute;
+  margin: 150px 0 0 800px;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/maddie/card-maddie.png");
+}
+
+
+
+.odachi .winner-name {
+  position: absolute;
+  margin: -25px 0 0 150px;
+  width: 600px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/odachi/odachi-name.png");
+}
+.odachi .winner-portrait {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/odachi/odachi.png");
+}
+.odachi .winner-card {
+  position: absolute;
+  margin: 150px 0 0 800px;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/odachi/card-odachi.png");
+}
+
+
+
+.quark .winner-name {
+  position: absolute;
+  margin: -25px 0 0 150px;
+  width: 600px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/quark/quark-name.png");
+}
+.quark .winner-portrait {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/quark/quark.png");
+}
+.quark .winner-card {
+  position: absolute;
+  margin: 150px 0 0 800px;
+  width: 350px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../public/quiz-img-itens/quark/card-quark.png");
+}
+
