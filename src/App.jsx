@@ -189,7 +189,7 @@ export default function App() {
             responseC="optionC2"
             responseD="optionD2"
             responseE="optionE2"
-          />
+          /> 
           <Questions
             result={resultQuiz}
             question="1. Numa situação de estresse, qual é seu papel?"

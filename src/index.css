@@ -265,7 +265,7 @@
 .odachi .winner-name {
   position: absolute;
   margin: -25px 0 0 150px;
-  width: 600px;
+  width: 620px;
   height: 250px;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,3 +324,219 @@
   background-image: url("../public/quiz-img-itens/quark/card-quark.png");
 }
 
+@media (min-width: 2559px){
+  .logo-image {
+    width: 1300px;
+    height: 600px;
+    margin-top: 8%;
+  }
+
+  .text-result{
+    font-size: 3em;
+  }
+
+  .result-btn{
+    font-size: 2em;
+  }
+
+  .start-btn{
+    font-size: 2.5em;
+  }
+
+
+  .alathar .winner-name {
+    margin: 30px 0 0 15%;
+    width: 1000px;
+    height: 350px;
+  }
+  .alathar .winner-portrait {
+    width: 80%;
+    height: 100vh;
+    margin-left: 8%;
+  }
+  .alathar .winner-card {
+    margin: 150px 0 0 63%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .lore .winner-name {
+    margin: 30px 0 0 15%;
+    width: 1000px;
+    height: 350px;
+  }
+  .lore .winner-portrait {
+    width: 80%;
+    height: 100vh;
+    margin-left: 8%;
+  }
+  .lore .winner-card {
+    margin: 150px 0 0 63%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .maddie .winner-name {
+    margin: 30px 0 0 15%;
+    width: 1000px;
+    height: 350px;
+  }
+  .maddie .winner-portrait {
+    width: 80%;
+    height: 100vh;
+    margin-left: 8%;
+  }
+  .maddie .winner-card {
+    margin: 150px 0 0 63%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .odachi .winner-name {
+    margin: 30px 0 0 15%;
+    width: 1000px;
+    height: 350px;
+  }
+  .odachi .winner-portrait {
+    width: 80%;
+    height: 100vh;
+    margin-left: 8%;
+  }
+  .odachi .winner-card {
+    margin: 150px 0 0 63%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .quark .winner-name {
+    margin: 30px 0 0 15%;
+    width: 1000px;
+    height: 400px;
+  }
+  .quark .winner-portrait {
+    width: 80%;
+    height: 100vh;
+    margin-left: 8%;
+  }
+  .quark .winner-card {
+    margin: 150px 0 0 63%;
+    width: 550px;
+    height: 650px;
+  }
+  
+  .winner-btn {
+    margin: 80vh 0 0 64%;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 2em;
+  }
+}
+
+
+@media (max-width: 430px){
+   .logo-image {
+    width: 400px;
+    height: 200px;
+    margin-top: 40%;
+  }
+
+  .text-result{
+    margin-top: -2%;
+    text-align: center;
+    width: 70%;
+    font-size: 1.5em;
+  }
+
+  .result-btn{
+    font-size: 1em;
+  }
+
+  .winner-btn {
+    margin: 85vh 0 0 50%;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 0.5em;
+  }
+
+
+  .alathar .winner-name {
+    margin: 50px 0 0 50px;
+    width: 350px;
+    height: 150px;
+  }
+  .alathar .winner-portrait {
+    margin: 40vh 0 0 0;
+    width: 100%;
+    height: 60vh;
+  }
+  .alathar .winner-card {
+    margin: 50% 0 0 50%;
+    width: 200px;
+    height: 250px;
+  }
+  
+/*
+  .lore .winner-name {
+    margin: 50px 0 0 150px;
+    width: 1000px;
+    height: 350px;
+  }
+  .lore .winner-portrait {
+    width: 80%;
+    height: 100vh;
+  }
+  .lore .winner-card {
+    margin: 150px 0 0 55%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .maddie .winner-name {
+    margin: 50px 0 0 150px;
+    width: 1000px;
+    height: 350px;
+  }
+  .maddie .winner-portrait {
+    width: 80%;
+    height: 100vh;
+  }
+  .maddie .winner-card {
+    margin: 150px 0 0 55%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .odachi .winner-name {
+    margin: 50px 0 0 150px;
+    width: 1000px;
+    height: 350px;
+  }
+  .odachi .winner-portrait {
+    width: 80%;
+    height: 100vh;
+  }
+  .odachi .winner-card {
+    margin: 150px 0 0 55%;
+    width: 550px;
+    height: 650px;
+  }
+
+  .quark .winner-name {
+    margin: 50px 0 0 150px;
+    width: 1000px;
+    height: 400px;
+  }
+  .quark .winner-portrait {
+    width: 80%;
+    height: 100vh;
+  }
+  .quark .winner-card {
+    margin: 150px 0 0 55%;
+    width: 550px;
+    height: 650px;
+  }
+  
+   */
+}
