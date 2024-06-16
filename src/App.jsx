@@ -189,7 +189,7 @@ export default function App() {
             responseC="optionC2"
             responseD="optionD2"
             responseE="optionE2"
-          /> 
+          />
           <Questions
             result={resultQuiz}
             question="1. Numa situação de estresse, qual é seu papel?"
@@ -205,7 +205,7 @@ export default function App() {
             responseE="optionE1"
           />
 
-          <div className={`${winner} bg-geral`}>
+          <div className={`${winner} final`}>
             {!winnerExist && (
               <div className="loading">
                 <span className="text-result">
@@ -218,10 +218,7 @@ export default function App() {
             )}
             {winnerExist && (
               <div className="container">
-                <div data-aos="fade-left" className="winner-name"></div>
-                <div data-aos="fade-right" className="winner-portrait"></div>
-                <div data-aos="fade-up" className="winner-card"></div>
-                <button data-aos="zoom-in" className="winner-btn" onClick={reload}>
+                <button className="winner-btn" onClick={reload}>
                   Começar de novo!
                 </button>
               </div>

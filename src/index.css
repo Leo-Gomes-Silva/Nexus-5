@@ -9,7 +9,7 @@
   position: absolute;
 }
 .start-game {
-  cursor: url('../public/quiz-img-itens/cursor-N.png'), auto;
+  cursor: url("../public/quiz-img-itens/cursor-N.png"), auto;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -30,7 +30,7 @@
 }
 
 .start-btn {
-  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+  cursor: url("../public/quiz-img-itens/cursor-N-pointer.png"), auto;
   margin-top: 75vh;
   position: absolute;
   font-weight: bold;
@@ -70,7 +70,7 @@
 }
 
 .result-btn {
-  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'),auto;
+  cursor: url("../public/quiz-img-itens/cursor-N-pointer.png"), auto;
 
   /* position: absolute; */
   font-weight: bold;
@@ -129,9 +129,14 @@
   justify-content: center;
 }
 
+.final .container{
+  display: flex;
+  justify-content: center;
+}
+
 .winner-btn {
-  cursor: url('../public/quiz-img-itens/cursor-N-pointer.png'), auto;
-  margin: 80vh 0 0 815px;
+  margin-top: 80vh ;
+  cursor: url("../public/quiz-img-itens/cursor-N-pointer.png"), auto;
   position: absolute;
   font-weight: bold;
   padding: 10px 20px;
@@ -157,7 +162,7 @@
 }
 
 .bg-geral {
-  cursor: url('../public/quiz-img-itens/cursor-N.png'),auto;
+  cursor: url("../public/quiz-img-itens/cursor-N.png"), auto;
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -166,266 +171,128 @@
   background-image: url("../public/quiz-img-itens/background-geral.png");
 }
 
-.alathar .winner-name {
-  position: absolute;
-  margin: -25px 0 0 150px;
-  width: 600px;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/alathar/alathar-name.png");
-}
-.alathar .winner-portrait {
+.alathar{
   position: absolute;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../public/quiz-img-itens/alathar/alathar.png");
-}
-.alathar .winner-card {
-  position: absolute;
-  margin: 150px 0 0 800px;
-  width: 350px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/alathar/card-alathar.png");
+  background-image: url("../public/alathar-winner.png");
 }
 
-
-
-.lore .winner-name {
-  position: absolute;
-  margin: -25px 0 0 150px;
-  width: 600px;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/lore/lore-name.png");
-}
-.lore .winner-portrait {
+.lore{
   position: absolute;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../public/quiz-img-itens/lore/lore.png");
-}
-.lore .winner-card {
-  position: absolute;
-  margin: 150px 0 0 800px;
-  width: 350px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/lore/card-lore.png");
+  background-image: url("../public/lore-winner.png");
 }
 
-
-
-.maddie .winner-name {
-  position: absolute;
-  margin: -25px 0 0 150px;
-  width: 600px;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/maddie/maddie-name.png");
-}
-.maddie .winner-portrait {
+.maddie{
   position: absolute;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../public/quiz-img-itens/maddie/maddie.png");
-}
-.maddie .winner-card {
-  position: absolute;
-  margin: 150px 0 0 800px;
-  width: 350px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/maddie/card-maddie.png");
+  background-image: url("../public/maddie-winner.png");
 }
 
-
-
-.odachi .winner-name {
-  position: absolute;
-  margin: -25px 0 0 150px;
-  width: 620px;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/odachi/odachi-name.png");
-}
-.odachi .winner-portrait {
+.odachi {
   position: absolute;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../public/quiz-img-itens/odachi/odachi.png");
-}
-.odachi .winner-card {
-  position: absolute;
-  margin: 150px 0 0 800px;
-  width: 350px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/odachi/card-odachi.png");
+  background-image: url("../public/odachi-winner.png");
 }
 
-
-
-.quark .winner-name {
-  position: absolute;
-  margin: -25px 0 0 150px;
-  width: 600px;
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/quark/quark-name.png");
-}
-.quark .winner-portrait {
+.quark{
   position: absolute;
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../public/quiz-img-itens/quark/quark.png");
-}
-.quark .winner-card {
-  position: absolute;
-  margin: 150px 0 0 800px;
-  width: 350px;
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../public/quiz-img-itens/quark/card-quark.png");
+  background-image: url("../public/quark-winner.png");
 }
 
-@media (min-width: 2559px){
+@media (min-width: 2300px) {
+  .alathar{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/alathar-large.png");
+  }
+  
+  .lore{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/lore-large.png");
+  }
+  
+  .maddie{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/maddie-large.png");
+  }
+  
+  .odachi {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/odachi-large.png");
+  }
+  
+  .quark{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/quark-large.png");
+  }
+  
+
   .logo-image {
     width: 1300px;
     height: 600px;
     margin-top: 8%;
   }
 
-  .text-result{
+  .text-result {
     font-size: 3em;
   }
 
-  .result-btn{
+  .result-btn {
     font-size: 2em;
   }
 
-  .start-btn{
+  .start-btn {
     font-size: 2.5em;
   }
 
-
-  .alathar .winner-name {
-    margin: 30px 0 0 15%;
-    width: 1000px;
-    height: 350px;
-  }
-  .alathar .winner-portrait {
-    width: 80%;
-    height: 100vh;
-    margin-left: 8%;
-  }
-  .alathar .winner-card {
-    margin: 150px 0 0 63%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .lore .winner-name {
-    margin: 30px 0 0 15%;
-    width: 1000px;
-    height: 350px;
-  }
-  .lore .winner-portrait {
-    width: 80%;
-    height: 100vh;
-    margin-left: 8%;
-  }
-  .lore .winner-card {
-    margin: 150px 0 0 63%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .maddie .winner-name {
-    margin: 30px 0 0 15%;
-    width: 1000px;
-    height: 350px;
-  }
-  .maddie .winner-portrait {
-    width: 80%;
-    height: 100vh;
-    margin-left: 8%;
-  }
-  .maddie .winner-card {
-    margin: 150px 0 0 63%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .odachi .winner-name {
-    margin: 30px 0 0 15%;
-    width: 1000px;
-    height: 350px;
-  }
-  .odachi .winner-portrait {
-    width: 80%;
-    height: 100vh;
-    margin-left: 8%;
-  }
-  .odachi .winner-card {
-    margin: 150px 0 0 63%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .quark .winner-name {
-    margin: 30px 0 0 15%;
-    width: 1000px;
-    height: 400px;
-  }
-  .quark .winner-portrait {
-    width: 80%;
-    height: 100vh;
-    margin-left: 8%;
-  }
-  .quark .winner-card {
-    margin: 150px 0 0 63%;
-    width: 550px;
-    height: 650px;
-  }
-  
   .winner-btn {
-    margin: 80vh 0 0 64%;
+    margin-top: 80vh;
     font-weight: bold;
     padding: 10px 20px;
     font-weight: 700;
@@ -434,109 +301,45 @@
 }
 
 
-@media (max-width: 430px){
-   .logo-image {
-    width: 400px;
-    height: 200px;
-    margin-top: 40%;
+@media (max-width: 500px) {
+  .logo-image {
+    width: 300px;
+    height: 150px;
+    margin-top: 70%;
   }
 
-  .text-result{
+  .text-result {
     margin-top: -2%;
     text-align: center;
     width: 70%;
     font-size: 1.5em;
   }
 
-  .result-btn{
+  .result-btn {
     font-size: 1em;
   }
 
   .winner-btn {
-    margin: 85vh 0 0 50%;
+    margin-top: 80vh;
     font-weight: bold;
     padding: 10px 20px;
     font-weight: 700;
-    font-size: 0.5em;
+    font-size: 0.75em;
   }
 
-
-  .alathar .winner-name {
-    margin: 50px 0 0 50px;
-    width: 350px;
-    height: 150px;
+  .alathar {
+    background-image: url("../public/alathar-mobile.png");
   }
-  .alathar .winner-portrait {
-    margin: 40vh 0 0 0;
-    width: 100%;
-    height: 60vh;
+  .lore {
+    background-image: url("../public/lore-mobile.png");
   }
-  .alathar .winner-card {
-    margin: 50% 0 0 50%;
-    width: 200px;
-    height: 250px;
+  .maddie {
+    background-image: url("../public/maddie-mobile.png");
   }
-  
-/*
-  .lore .winner-name {
-    margin: 50px 0 0 150px;
-    width: 1000px;
-    height: 350px;
+  .odachi {
+    background-image: url("../public/odachi-mobile.png");
   }
-  .lore .winner-portrait {
-    width: 80%;
-    height: 100vh;
+  .quark {
+    background-image: url("../public/quark-mobile.png");
   }
-  .lore .winner-card {
-    margin: 150px 0 0 55%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .maddie .winner-name {
-    margin: 50px 0 0 150px;
-    width: 1000px;
-    height: 350px;
-  }
-  .maddie .winner-portrait {
-    width: 80%;
-    height: 100vh;
-  }
-  .maddie .winner-card {
-    margin: 150px 0 0 55%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .odachi .winner-name {
-    margin: 50px 0 0 150px;
-    width: 1000px;
-    height: 350px;
-  }
-  .odachi .winner-portrait {
-    width: 80%;
-    height: 100vh;
-  }
-  .odachi .winner-card {
-    margin: 150px 0 0 55%;
-    width: 550px;
-    height: 650px;
-  }
-
-  .quark .winner-name {
-    margin: 50px 0 0 150px;
-    width: 1000px;
-    height: 400px;
-  }
-  .quark .winner-portrait {
-    width: 80%;
-    height: 100vh;
-  }
-  .quark .winner-card {
-    margin: 150px 0 0 55%;
-    width: 550px;
-    height: 650px;
-  }
-  
-   */
 }
